@@ -1,0 +1,20 @@
+<template>
+  <div class="app text">{{msg}}</div>
+</template>
+<script>
+  export default {
+    initData() {
+      return {
+        msg: 'hello San'
+      }
+    },
+  }
+</script>
+<style>
+  .text {
+    margin: 50px auto;
+    font-size: 30px;
+    color: red;
+    text-align: center;
+  }
+</style>
